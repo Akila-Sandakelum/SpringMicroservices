@@ -1,0 +1,11 @@
+---
+spring:
+  profiles:
+    active: default
+  application:
+    name: spring-config-client
+  cloud:
+    config:
+      uri: http://localhost:8002
+server:
+  port: 8004

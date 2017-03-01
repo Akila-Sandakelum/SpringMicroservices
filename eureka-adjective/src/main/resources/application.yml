@@ -1,0 +1,13 @@
+# This single codebase performs generating of subject, verb, article, adjective, and noun, plus sentence assembly.
+
+---
+# Items that apply to ALL profiles:
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
+server:
+  port: ${PORT:${SERVER_PORT:0}}   # Select any available port if neither port nor server port are specified.
+
+words: reasonable,leaky,suspicious,ordinary,unlikely
+  
